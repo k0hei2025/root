@@ -1,3 +1,14 @@
+This is Food Website Project Created By SVVV University using template
+
+
+
+
+
+
+
+
+
+
 Thank you for using our template!
 
 For more awesome templates please visit https://colorlib.com/wp/templates/
