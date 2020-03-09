@@ -696,15 +696,19 @@ ol {
   Categories Filter
 -----------------------*/
 
-.categories-filter-section {
+.categories-filter-section,
+.nv_categories-filter-section
+ {
 	padding-bottom: 120px;
 }
 
-.categories-filter-section .filter-item {
+.categories-filter-section .filter-item,
+.nv_categories-filter-section .filter-item {
 	margin-bottom: 67px;
 }
 
-.categories-filter-section .filter-item ul li {
+.categories-filter-section .filter-item ul li,
+.nv_categories-filter-section .filter-item ul li {
 	list-style: none;
 	color: #353535;
 	display: inline-block;
@@ -716,19 +720,23 @@ ol {
 	z-index: 1;
 }
 
-.categories-filter-section .filter-item ul li.active {
+.categories-filter-section .filter-item ul li.active,
+.nv_categories-filter-section .filter-item ul li.nv_active {
 	color: #fff;
 }
 
-.categories-filter-section .filter-item ul li.active::before {
+.categories-filter-section .filter-item ul li.active::before,
+.nv_categories-filter-section .filter-item ul li.nv_active::before {
 	opacity: 1;
 }
 
-.categories-filter-section .filter-item ul li.active::after {
+.categories-filter-section .filter-item ul li.active::after,
+.nv_categories-filter-section .filter-item ul li.nv_active::after {
 	opacity: 1;
 }
 
-.categories-filter-section .filter-item ul li::before {
+.categories-filter-section .filter-item ul li::before,
+.nv_categories-filter-section .filter-item ul li::before {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -740,7 +748,8 @@ ol {
 	opacity: 0;
 }
 
-.categories-filter-section .filter-item ul li::after {
+.categories-filter-section .filter-item ul li::after,
+.nv_categories-filter-section .filter-item ul li::after {
 	position: absolute;
 	left: 50%;
 	bottom: -12px;
@@ -2250,7 +2259,8 @@ ol {
 	.top-recipe .container {
 		max-width: 1470px;
 	}
-	.categories-filter-section .container {
+	.categories-filter-section .container,
+	.nv_categories-filter-section .container {
 		max-width: 1470px;
 	}
 	.feature-recipe .container {
@@ -2274,7 +2284,8 @@ ol {
 	.top-recipe .container {
 		max-width: 1260px;
 	}
-	.categories-filter-section .container {
+	.categories-filter-section .container,
+	.nv_categories-filter-section .container {
 		max-width: 1260px;
 	}
 	.feature-recipe .container {
@@ -2493,7 +2504,8 @@ ol {
 	.categories-feature-recipe .section-title {
 		width: 300px;
 	}
-	.categories-filter-section .filter-item ul li {
+	.categories-filter-section .filter-item ul li,
+	.nv_categories-filter-section .filter-item ul li {
 		padding: 15px 20px;
 	}
 	.recipe-top {
@@ -2538,7 +2550,8 @@ ol {
 	.top-recipe .section-title {
 		width: 235px;
 	}
-	.categories-filter-section .filter-item ul li {
+	.categories-filter-section .filter-item ul li,
+	.nv_categories-filter-section .filter-item ul li {
 		padding: 15px 25px;
 	}
 	.cf-filter .cf-item {

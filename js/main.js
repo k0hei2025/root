@@ -20,14 +20,38 @@
          /*------------------
             Product filter
         --------------------*/
-        if ($('#category-filter').length > 0) {
-            var containerEl = document.querySelector('#category-filter');
-            var mixer = mixitup(containerEl);
-        }
+        var config = {
+            controls: {
+                scope: 'local'
+            }
+        };
+        
         $(".categories-filter-section .filter-item ul li").on('click', function () {
             $(".categories-filter-section .filter-item ul li").removeClass('active');
             $(this).addClass('active');
         });
+
+
+
+        
+        $(".nv_categories-filter-section .filter-item ul li").on('click', function () {
+            $(".nv_categories-filter-section .filter-item ul li").removeClass('nv_active');
+            $(this).addClass('nv_active');
+        });
+
+        var containerEl1 = document.querySelector('[data-ref="container-1"]');
+        var containerEl2 = document.querySelector('[data-ref="container-2"]');
+
+        var config = {
+            controls: {
+                scope: 'local'
+            }
+        };
+
+        var mixer1 = mixitup(containerEl1, config);
+        var mixer1 = mixitup(containerEl2, config);
+        
+
     });
 
     /*------------------
