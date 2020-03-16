@@ -38,7 +38,7 @@ body {
 	font-family: "PT Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background: none;
+	background: LightPink;
 }
 
 h1,
@@ -87,7 +87,7 @@ p {
 }
 
 img {
-	max-width: 100%;
+	max-width: 40%;
 }
 
 input:focus,
@@ -568,7 +568,7 @@ ol {
 -----------------------*/
 
 .top-recipe {
-	background: #F8F9FB;
+	background: Silver;
 	padding-bottom: 60px;
 	position: relative;
 }
@@ -800,7 +800,7 @@ ol {
 
 .feature-recipe {
 	position: relative;
-	background: #F8F9FB;
+	background: AntiqueWhite;
 	padding-top: 55px;
 	padding-bottom: 55px;
 }
@@ -869,7 +869,7 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background: #EAEDF2;
+	background: FloralWhite;
 	padding-top: 70px;
 }
 
