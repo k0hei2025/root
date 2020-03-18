@@ -113,7 +113,7 @@ select:-webkit-autofill {
       </a>
     </div>
     <div class="from-content">
-      <h1>Log in to Food Epicure</h1>
+      <h1>Sign in to Mockplus</h1>
       <div class="from">
         <div class="from-list">
           <input type="text" id="email" placeholder="Email" data-text="Please enter a valid email address.">
@@ -126,11 +126,7 @@ select:-webkit-autofill {
         </p>
         <p class="error-message">&nbsp;</p>
         <div class="submit-btn">
-<<<<<<< HEAD
-          <button id="login">Log in</button>
-=======
           <button id="submit"name="t"class="btn btn-primary">Login</button>
->>>>>>> e773776e32c0bea1971b132b7d0445cb9a53388d
         </div>
         <p class="tip signup-tip">
             <span>Don't have an account?</span>
