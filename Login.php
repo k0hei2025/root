@@ -11,6 +11,10 @@ if (!mysqli_select_db($con,'food'))
 $Email = $_POST['Email'];
 $pass = $_POST['Password'];
 $sql = "INSERT INTO login VALUES ('$Email','$pass')";
+
+echo '$$Email';
+echo '$pass';
+
 if (!mysqli_query($con,$sql))
 {
   echo mysqli_error($con);
