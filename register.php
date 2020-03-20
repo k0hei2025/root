@@ -14,6 +14,7 @@ $contact = $_POST['Contactno'];
 $pass = $_POST['Password'];
 $confirm = $_POST['Confirmpass'];
 $sql = "INSERT INTO epicure VALUES ('$user','$email','$contact','$pass','$confirm')";
+
 if (!mysqli_query($con,$sql))
 {
   echo mysqli_error($con);
@@ -22,6 +23,6 @@ else
 {
   echo 'Inserted';
 }
-header("refresh:5; url=Register.html");
+header("refresh:80; url=Register.html");
 ?>
 
