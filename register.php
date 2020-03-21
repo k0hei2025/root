@@ -8,14 +8,12 @@ if (!mysqli_select_db($con,'food'))
 {
   echo 'Database Not Selected';
 }                                                  
-$Email = $_POST['Email'];
+$user = $_POST['Username'];
+$email = $_POST['Email'];
+$contact = $_POST['Contactno'];
 $pass = $_POST['Password'];
-$sql = "INSERT INTO login VALUES ('$Email','$pass')";
-
-echo 'Email is ';
-echo '$Email';
-echo 'Pass is ';
-echo '$pass';
+$confirm = $_POST['Confirmpass'];
+$sql = "INSERT INTO epicure VALUES ('$user','$email','$contact','$pass','$confirm')";
 
 if (!mysqli_query($con,$sql))
 {
@@ -25,6 +23,6 @@ else
 {
   echo 'Inserted';
 }
-header("refresh:2; url=login.html");
+header("refresh:80; url=Register.html");
 ?>
 
